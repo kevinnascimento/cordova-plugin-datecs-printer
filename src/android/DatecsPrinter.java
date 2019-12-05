@@ -33,7 +33,7 @@ public class DatecsPrinter extends CordovaPlugin {
 				printPage,
 				write,
 				writeHex,
-				disableItalicMode;
+				disableItalicMode
 	}
 
 	public void initialize(CordovaInterface cordova, CordovaWebView webView) {
@@ -155,8 +155,9 @@ public class DatecsPrinter extends CordovaPlugin {
 			  String hex = args.getString(0);
 			  printer.writeHex(hex);
 			  break;
-		  	case: disableItalicMode:
+		  	case disableItalicMode:
 		  	  printer.disableItalicMode(hex);
+		  	  break;
 
 		}
 		return true;
