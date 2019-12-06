@@ -156,7 +156,7 @@ public class DatecsPrinter extends CordovaPlugin {
 			  printer.writeHex(hex);
 			  break;
 		  	case disableItalicMode:
-		  	  printer.disableItalicMode(hex);
+		  	  printer.disableItalicMode();
 		  	  break;
 
 		}
